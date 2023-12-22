@@ -1,10 +1,13 @@
 ﻿# rm2do
-# Requirements
+
+## Requirements
+
 - Remarkable Cloud
 - Google API Access (specifically Google Tasks)
   - A Google Task list called "Remarkable"
 
-# Running
+## Running
+
 `main.py run`
 
 It _should_ walk you through the initial setup (pairing with Remarkable Cloud and getting Google tokens)
@@ -23,7 +26,7 @@ When pulling, it will pull the file back down from Cloud and read through all th
 
 The PDF is then re-generated using the latest list of tasks, and the cycle repeats
 
-# Todo
+## TODO
 
 _In no particular order_
 
@@ -33,7 +36,7 @@ _In no particular order_
 - Task comparison (don't regenerate if nothing has changed)
 - Better documentation/comments
 
-## Features
+### Features
 
 - Prettier PDF
 - Markup on tasks (saving some of the surrounding drawing and attaching to the generated PDF)
