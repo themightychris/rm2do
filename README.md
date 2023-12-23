@@ -8,7 +8,10 @@
 
 ## Running
 
-`main.py run`
+```bash
+pip install -r requirements.txt
+python main.py run
+```
 
 It _should_ walk you through the initial setup (pairing with Remarkable Cloud and getting Google tokens)
 
